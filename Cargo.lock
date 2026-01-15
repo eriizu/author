@@ -3,14 +3,6 @@
 version = 4
 
 [[package]]
-name = "author"
-version = "0.1.0"
-dependencies = [
- "colored",
- "inquire",
-]
-
-[[package]]
 name = "bitflags"
 version = "1.3.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -191,6 +183,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ed2bf2547551a7053d6fdfafda3f938979645c44812fbfcda098faae3f1a362d"
 dependencies = [
  "bitflags 2.10.0",
+]
+
+[[package]]
+name = "repo_author"
+version = "0.1.0"
+dependencies = [
+ "colored",
+ "inquire",
 ]
 
 [[package]]
