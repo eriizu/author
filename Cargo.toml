@@ -2,6 +2,8 @@
 name = "repo_author"
 version = "0.1.0"
 edition = "2024"
+description = "add, remove, list project's author.txt"
+license = "MIT"
 
 [dependencies]
 colored = "2"
